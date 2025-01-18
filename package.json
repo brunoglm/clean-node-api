@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
-  "keywords": [ ],
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
@@ -21,6 +21,9 @@
     "eslint-plugin-promise": "^5.1.0",
     "eslint-plugin-standard": "^5.0.0",
     "husky": "^7.0.2",
+    "@types/jest": "^27.0.1",
+    "jest": "^27.2.0",
+    "ts-jest": "^27.0.5",
     "lint-staged": "^11.1.2"
   }
 }
