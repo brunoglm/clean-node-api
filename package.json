@@ -6,9 +6,9 @@
   "scripts": {
     "test": "jest --passWithNoTests --silent --noStackTrace --runInBand",
     "test:verbose": "jest --passWithNoTests --runInBand",
-    "test:unit": "npm test -- --watch --no-coverage -c jest-unit-config.js",
-    "test:integration": "npm test -- --watch --no-coverage -c jest-integration-config.js",
-    "test:coverage": "npm test -- --watch",
+    "test:unit": "npm test -- --watchAll --no-coverage -c jest-unit-config.js",
+    "test:integration": "npm test -- --watchAll --no-coverage -c jest-integration-config.js",
+    "test:coverage": "npm test -- --watchAll",
     "test:staged": "npm test -- --findRelatedTests",
     "test:ci": "npm test -- --coverage"
   },
